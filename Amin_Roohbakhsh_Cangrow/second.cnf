@@ -1,0 +1,5 @@
+[mysqld]
+default_authentication_plugin= mysql_native_password
+bind-address=0.0.0.0
+log_bin=slave-bin
+server-id=2
